@@ -13,8 +13,9 @@ body {
   @apply bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-gray-100;
 }
 
-.darkbody{
-  @apply bg-gray-100 text-gray-800 
+.darkbody {
+  background-color: #f3f4f6; /* Tailwind bg-gray-100 */
+  color: #1f2937; /* Tailwind text-gray-800 */
 }
 code {
   font-family: 'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono',

@@ -15,8 +15,8 @@ export default function Footer() {
             Let's create Clean and Scalable applications
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300">
-            start by{" "}
-            <span className="text-orange-500 font-semibold">Hello</span>
+            Strike a {" "}
+            <span className="text-orange-500 font-semibold">conversation</span>
           </p>
           <div className="flex space-x-4 mt-4">
             <a href="mailto:contact.deshkaustubh@gmail.com" className="text-gray-500 hover:text-red-400 text-2xl" title="Contact Me">

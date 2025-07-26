@@ -42,7 +42,7 @@ export default function Navbar() {
           <a href="/" className={`text-xl sm:text-2xl font-bold ${
             isDark ? 'text-white' : 'text-gray-900'
           }`}>
-            K.D.
+            kaustubhdeshpande.tech
           </a>
         </div>
       </div>
