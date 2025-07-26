@@ -51,7 +51,7 @@ export default function About() {
                 value={form.firstName}
                 onChange={handleChange}
                 type="text"
-                placeholder="John"
+                placeholder="Sam"
                 className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-400"
                 required
               />
@@ -65,7 +65,7 @@ export default function About() {
                 value={form.lastName}
                 onChange={handleChange}
                 type="text"
-                placeholder="Doe"
+                placeholder="Altman"
                 className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-400"
                 required
               />
@@ -82,7 +82,7 @@ export default function About() {
               value={form.company}
               onChange={handleChange}
               type="text"
-              placeholder="Your Company"
+              placeholder="Open AI"
               className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400"
             />
           </div>
@@ -97,7 +97,7 @@ export default function About() {
               value={form.email}
               onChange={handleChange}
               type="email"
-              placeholder="example@email.com"
+              placeholder="sam.altman@openai.com"
               className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400"
               required
             />
@@ -113,7 +113,7 @@ export default function About() {
               value={form.phone}
               onChange={handleChange}
               type="tel"
-              placeholder="(+995) 555-55-55-55"
+              placeholder="(+91) 123654789"
               className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400"
             />
           </div>
@@ -128,7 +128,8 @@ export default function About() {
               value={form.message}
               onChange={handleChange}
               rows={4}
-              placeholder="Tell us what we can help you with"
+              placeholder="Dear Kaustubh,  
+                We want you to helm the future of intelligence — ready to accept the CEO seat?"
               className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400"
             />
           </div>
