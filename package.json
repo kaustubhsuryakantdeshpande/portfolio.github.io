@@ -1,7 +1,7 @@
 {
   "name": "ipportfolio",
   "version": "0.1.0",
-  "homepage": "https://kaustubhsuryakantdeshpande.github.io/portfolio",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
