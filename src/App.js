@@ -46,7 +46,7 @@ const ThemeProvider = ({ children }) => {
 function App() {
   return (
     <ThemeProvider>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <AppContent />
       </Router>
     </ThemeProvider>
