@@ -1,7 +1,4 @@
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaEnvelope } from "react-icons/fa";
-import { FaG } from "react-icons/fa6";
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 
 
 
