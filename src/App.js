@@ -44,9 +44,12 @@ const ThemeProvider = ({ children }) => {
 };
 
 function App() {
+  // Only set a basename when PUBLIC_URL is a non-relative path.
+  const routerBasename = (process.env.PUBLIC_URL && process.env.PUBLIC_URL !== '.') ? process.env.PUBLIC_URL : undefined;
+
   return (
     <ThemeProvider>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename={routerBasename}>
         <AppContent />
       </Router>
     </ThemeProvider>
