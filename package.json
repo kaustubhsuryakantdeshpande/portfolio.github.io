@@ -1,6 +1,7 @@
 {
   "name": "ipportfolio",
   "version": "0.1.0",
+  "homepage": "https://kaustubhsuryakantdeshpande.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
@@ -42,6 +43,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.0.0"
   }
